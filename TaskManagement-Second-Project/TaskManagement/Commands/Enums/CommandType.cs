@@ -1,0 +1,38 @@
+﻿namespace TaskManagement.Commands.Enums
+{
+    public enum CommandType
+    {
+        CreateMember,
+        ListMembers,
+        CreateTeam,
+        ListTeams,
+        AddMemberToTeam,
+        ListTeamMembers,
+        CreateStory,
+        Help,
+        CreateBoardInTeam,
+        ListTeamBoards,
+        CreateFeedback,
+        CreateBug,
+        ChangeStorySize,
+        ChangeStoryPriority,
+        ChangeStoryStatus,
+        ChangeFeedbackStatus,
+        ChangeFeedbackRating,
+        ChangeBugPriority,
+        ChangeBugSeverity,
+        ChangeBugStatus,
+        AddComment,
+        AssignTaskToMember,
+        UnassignTaskToMember,
+        ListAllTasks,
+        ListBugByStatus,
+        ListStoryByStatus,
+        ListFeedbackByStatus,
+        ListTasksByAssignee,
+        ShowHistoryInTask,
+        ShowTeamActivity,
+        ShowMemberActivity,
+        ShowBoardActivity
+    }
+}
